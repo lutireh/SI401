@@ -1,8 +1,9 @@
+/* Geral */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #2f2f2f;
-  color: white;
+  background: #ffeaab;
+  color: #413040;
 }
 
 .conteudo {
@@ -14,17 +15,8 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
   font-size: 30px;
-  color: #006e51;
+  color: #6c6368;
   text-transform: uppercase;
-}
-
-h3 {
-  font-size: 14px;
-  text-align: center;
-  padding: 5px;
-  background-color: #f6d155;
-  color: white;
-  font-style: italic;
 }
 
 p {
@@ -32,6 +24,7 @@ p {
   text-align: justify;
 }
 
+/* Menu */
 .menu {
   z-index: +10;
   position: fixed;
@@ -41,9 +34,10 @@ ul {
   width: 100%;
   float: left;
   text-align: center;
-  background-color: #f6d155;
+  background-color: #6c6368;
   padding: 20px;
 }
+
 li {
   font-weight: bold;
   padding-right: 20px;
@@ -52,14 +46,15 @@ li {
 }
 
 li a {
-  color: black;
+  color: #f6d155;
   text-decoration: none;
 }
 
 li a:hover {
-  border-bottom: 4px solid #006e51;
+  border-bottom: 4px solid #eaa353;
 }
 
+/* Sobre */
 .circle-image img {
   border-radius: 50%;
   width: 100 px;
@@ -74,20 +69,16 @@ section {
   padding-top: 40px;
 }
 
-#sobre {
-}
-
 #sobre a {
   text-decoration: none;
-  color: #006e51;
+  color: #836500;
 }
 
 .professor {
   align-items: center;
   text-align: center;
-  color: #006e51;
-  font-size: 20px;
-  font-style: italic;
+  color: #413040;
+  font-size: 15px;
 }
 
 .professor div {
@@ -95,6 +86,7 @@ section {
   text-align: center;
 }
 
+/* Linha do tempo */
 *,
 *::before,
 *::after {
@@ -113,7 +105,7 @@ section {
   content: "";
   position: absolute;
   width: 2px;
-  background: #006e51;
+  background: #413040;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -142,8 +134,8 @@ section {
   height: 16px;
   top: calc(50% - 8px);
   right: -8px;
-  background: #2f2f2f;
-  border: 2px solid #006e51;
+  background: #ffeaab;
+  border: 2px solid #413040;
   border-radius: 16px;
   z-index: 1;
 }
@@ -159,7 +151,7 @@ section {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #006e51;
+  background: #413040;
   z-index: 1;
 }
 
@@ -174,7 +166,7 @@ section {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006e51;
+  color: #413040;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -196,11 +188,11 @@ section {
   padding: 9px 0;
   top: calc(50% - 20px);
   background: #f6d155;
-  border: 2px solid #006e51;
+  border: 2px solid #413040;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006e51;
+  color: #413040;
   z-index: 1;
 }
 
@@ -228,14 +220,14 @@ section {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006e51;
+  color: #6c6368;
 }
 
 .container .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: #413040;
 }
 
 @media (max-width: 767.98px) {
@@ -261,7 +253,7 @@ section {
   .container.left::before,
   .container.right::before {
     left: 100px;
-    border-color: transparent #006e51 transparent transparent;
+    border-color: transparent #413040 transparent transparent;
   }
 
   .container.left .date,
@@ -283,6 +275,7 @@ section {
   }
 }
 
+/* Avaliação */
 .legenda {
   font-size: 12px;
   font-style: italic;
@@ -295,6 +288,20 @@ section {
 }
 
 #ref a {
-  color: #006e51;
+  color: #836500;
   text-decoration: none;
+}
+
+.avaliacao {
+  padding: 20px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#avaliacao > h3 {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 5px;
+  color: #413040;
 }

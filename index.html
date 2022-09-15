@@ -1,3 +1,9 @@
+<!--Atividade Unidades 02 a 08
+Crie um conjunto de documentos HTML que represente uma 
+versão preliminar de um site para a disciplina SI401
+
+Autora: Luiza Tirelli Rehbein-->
+
 <!--Referencia da linha do tempo
 Copyright (c) 2022 by HTML Codex (https://codepen.io/htmlcodex/pen/LYGjPgV)
 
@@ -31,10 +37,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     </nav>
     <section class="conteudo">
         <!-- Sobre -->
-        <section id="sobre" class="sobre">
+        <section id="sobre" class="professor" class="sobre">
             <h1>Sobre</h1>
             <hr>
-            <h2 class="professor"><span class="circle-image">
+            <h2><span class="circle-image">
                     <img src="https://www.ft.unicamp.br/sites/default/files/guilherme.jpg" />
                 </span>
                 <div>Professor Doutor Guilherme Palermo</div>
@@ -247,18 +253,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             <hr>
             <p>A disciplina contará com um Projeto Final (a ser desenvolvido em grupo), dividido em três entregas parciais ao longo do semestre, e uma série de exercícios práticos de fixação (a serem desenvolvidos individualmente). Tais atividades serão utilizadas para avaliar a aprendizagem do aluno. Particularmente no caso do Projeto Final, as notas individuais de cada aluno serão atribuídas conforme sua contribuição em cada etapa.</p>
 
-            <p class="legenda">Seja:
-                <br> P1 – Nota da primeira avaliação parcial do Projeto;
-                <br> P2 – Nota da segunda avaliação parcial do Projeto;
-                <br> P3 – Nota da terceira avaliação parcial do Projeto;
-                <br> P – Nota final do Projeto;
-                <br> T – Média dos exercícios práticos de fixaço desenvolvidos ao longo do semestre;
-                <br> M – Média do aluno;
-                <br> MFinal – Média final no semestre;
-                <br> E – Nota do Exame;
-            </p>
-
-            <h2>Cálculo da Média</h2>
+            <h1>Cálculo da Média</h1>
             <hr>
             <h3>A nota final do Projeto será dada por:
                 <br> 𝑃 = 0,20 ∙ 𝑃1 + 0,50 ∙ 𝑃2 + 0,30 ∙ 𝑃3;
@@ -266,16 +261,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <br> A média do aluno será dada por:
                 <br> 𝑀 = 0,75 ∙ 𝑃 + 0,25 ∙ 𝑇;
             </h3>
+            <hr>
+            <div class="avaliacao">
 
-            <p>Se 𝑀 for menor 2,5 (Reprovação Direta):
-                <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 𝑀;
-                <br> Se 𝑀 ≥ 6,0 (Aprovação Direta):
-                <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 𝑀;
-                <br> Se 2,5 ≤ 𝑀 for menor 6,0 (Exame Obrigatório):
-                <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 0,6 ∙ 𝑀 + 0,4 ∙ 𝐸;
-                <br> Após o Exame, o aluno será considerado aprovado se:
-                <br> 𝑀𝐹𝑖𝑛𝑎𝑙 ≥ 5,0.
-            </p>
+
+                <p>Se 𝑀 for menor 2,5 (Reprovação Direta):
+                    <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 𝑀;
+                    <br> Se 𝑀 ≥ 6,0 (Aprovação Direta):
+                    <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 𝑀;
+                    <br> Se 2,5 ≤ 𝑀 for menor 6,0 (Exame Obrigatório):
+                    <br> 𝑀𝐹𝑖𝑛𝑎𝑙 = 0,6 ∙ 𝑀 + 0,4 ∙ 𝐸;
+                    <br> Após o Exame, o aluno será considerado aprovado se:
+                    <br> 𝑀𝐹𝑖𝑛𝑎𝑙 ≥ 5,0.
+                </p>
+                <p class="legenda">Seja:
+                    <br> P1 – Nota da primeira avaliação parcial do Projeto;
+                    <br> P2 – Nota da segunda avaliação parcial do Projeto;
+                    <br> P3 – Nota da terceira avaliação parcial do Projeto;
+                    <br> P – Nota final do Projeto;
+                    <br> T – Média dos exercícios práticos de fixaço desenvolvidos ao longo do semestre;
+                    <br> M – Média do aluno;
+                    <br> MFinal – Média final no semestre;
+                    <br> E – Nota do Exame;
+                </p>
+            </div>
         </section>
     </section>
     <!-- Footer -->
