@@ -57,7 +57,7 @@ li a:hover {
 /* Sobre */
 .circle-image img {
   border-radius: 50%;
-  width: 100 px;
+  width: 100px;
   height: 100px;
 }
 
@@ -65,8 +65,9 @@ li a:hover {
   text-align: center;
 }
 
-section {
+div {
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 #sobre a {
@@ -79,11 +80,6 @@ section {
   text-align: center;
   color: #413040;
   font-size: 15px;
-}
-
-.professor div {
-  margin-left: 20px;
-  text-align: center;
 }
 
 /* Linha do tempo */
